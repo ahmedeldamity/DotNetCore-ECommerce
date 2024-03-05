@@ -1,0 +1,11 @@
+D:\DotNetCore-ECommerce\Core\bin\Debug\net7.0\Core.deps.json
+D:\DotNetCore-ECommerce\Core\bin\Debug\net7.0\Core.dll
+D:\DotNetCore-ECommerce\Core\bin\Debug\net7.0\Core.pdb
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.dll
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\refint\Core.dll
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\Core.pdb
+D:\DotNetCore-ECommerce\Core\obj\Debug\net7.0\ref\Core.dll

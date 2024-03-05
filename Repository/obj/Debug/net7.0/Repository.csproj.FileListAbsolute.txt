@@ -1,0 +1,15 @@
+D:\DotNetCore-ECommerce\Repository\bin\Debug\net7.0\Repository.deps.json
+D:\DotNetCore-ECommerce\Repository\bin\Debug\net7.0\Repository.dll
+D:\DotNetCore-ECommerce\Repository\bin\Debug\net7.0\Repository.pdb
+D:\DotNetCore-ECommerce\Repository\bin\Debug\net7.0\Core.dll
+D:\DotNetCore-ECommerce\Repository\bin\Debug\net7.0\Core.pdb
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.dll
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\refint\Repository.dll
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\Repository.pdb
+D:\DotNetCore-ECommerce\Repository\obj\Debug\net7.0\ref\Repository.dll
