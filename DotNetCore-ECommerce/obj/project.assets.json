@@ -474,9 +474,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\DotNetCore-ECommerce.csproj",
-      "projectName": "DotNetCore-ECommerce",
-      "projectPath": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\DotNetCore-ECommerce.csproj",
+      "projectUniqueName": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\API.csproj",
+      "projectName": "API",
+      "projectPath": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\API.csproj",
       "packagesPath": "C:\\Users\\Haitham\\.nuget\\packages\\",
       "outputPath": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\obj\\",
       "projectStyle": "PackageReference",
