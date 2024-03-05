@@ -1,11 +1,12 @@
 ﻿using Core.Entities;
+using Core.Interfaces.Repositories;
 using Core.Interfaces.Specifications;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 
 namespace Repository
 {
-    public class GenericRepository<T> where T : BaseEntity
+    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
         private readonly StoreContext _storeContext;
 
