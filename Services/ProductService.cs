@@ -26,5 +26,21 @@ namespace Service
             var productsCount = await _unitOfWork.Repository<Product>().GetCountAsync(spec);
             return productsCount;
         }
+        public async Task<Product?> GetProductAsync(int id)
+        {
+            var spec = new ProductWithBrandAndCategorySpecifications(id);
+            var product = await _unitOfWork.Repository<Product>().GetByIdWithSpecAsync(spec);
+            return product;
+        }
+        public async Task<IReadOnlyList<ProductBrand>> GetBrandsAsync()
+        {
+            var brands = await _unitOfWork.Repository<ProductBrand>().GetAllAsync();
+            return brands;
+        }
+        public async Task<IReadOnlyList<ProductCategory>> GetCategoriesAsync()
+        {
+            var categories = await _unitOfWork.Repository<ProductCategory>().GetAllAsync();
+            return categories;
+        }
     }
 }
