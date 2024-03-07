@@ -1,5 +1,7 @@
 ﻿using Core.Interfaces.Repositories;
+using Core.Interfaces.Services;
 using Repository;
+using Service;
 
 namespace DotNetCore_ECommerce.ServicesExtension
 {
@@ -18,6 +20,9 @@ namespace DotNetCore_ECommerce.ServicesExtension
 
             // Register Unit Of Work
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
+
+            // Register Product Service
+            services.AddScoped(typeof(IProductService), typeof(ProductService));
 
             return services;
         }

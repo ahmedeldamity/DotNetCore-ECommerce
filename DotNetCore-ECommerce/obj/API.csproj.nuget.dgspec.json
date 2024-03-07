@@ -85,6 +85,9 @@
             "projectReferences": {
               "D:\\DotNetCore-ECommerce\\Repository\\Repository.csproj": {
                 "projectPath": "D:\\DotNetCore-ECommerce\\Repository\\Repository.csproj"
+              },
+              "D:\\DotNetCore-ECommerce\\Services\\Service.csproj": {
+                "projectPath": "D:\\DotNetCore-ECommerce\\Services\\Service.csproj"
               }
             }
           }
@@ -99,6 +102,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.16, )"
@@ -182,6 +189,65 @@
               "version": "[7.0.16, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNetCore-ECommerce\\Services\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNetCore-ECommerce\\Services\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "D:\\DotNetCore-ECommerce\\Services\\Service.csproj",
+        "packagesPath": "C:\\Users\\Haitham\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNetCore-ECommerce\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Haitham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\DotNetCore-ECommerce\\Core\\Core.csproj": {
+                "projectPath": "D:\\DotNetCore-ECommerce\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",

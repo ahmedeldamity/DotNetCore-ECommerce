@@ -26,6 +26,5 @@ namespace Service
             var product = await _unitOfWork.Repository<Product>().GetByIdWithSpecAsync(spec);
             return product;
         }
-
     }
 }
