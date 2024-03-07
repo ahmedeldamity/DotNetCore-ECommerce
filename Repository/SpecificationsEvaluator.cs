@@ -1,7 +1,6 @@
 ﻿using Core.Entities;
 using Core.Interfaces.Specifications;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace Repository
 {

@@ -1,9 +1,12 @@
 using API.Errors;
 using API.Middlewares;
+using Core.Entities.Identity_Entities;
 using DotNetCore_ECommerce.ServicesExtension;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
+using Repository.Identity;
 using StackExchange.Redis;
 
 #region Update Database Problems And Solution
@@ -48,6 +51,29 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(serviceProvider =>
     var connection = builder.Configuration.GetConnectionString("Redis");
     return ConnectionMultiplexer.Connect(connection);
 });
+
+// Identity Store Context
+builder.Services.AddDbContext<IdentityContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+});
+
+// We need to register three services of identity (UserManager - RoleManager - SignInManager)
+// but we don't need to register all them one by one
+// because we have method (AddIdentity) that will register the three services
+// --- this method has another overload take action to if you need to configure any option of identity
+builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
+{
+    option.Password.RequireLowercase = true;
+    option.Password.RequireUppercase = true;
+    option.Password.RequireDigit = true;
+    option.Password.RequireNonAlphanumeric = true;
+    option.Password.RequiredUniqueChars = 3;
+    option.Password.RequiredLength = 6;
+}).AddEntityFrameworkStores<IdentityContext>();
+// ? this because the three services talking to another Store Services
+// such as (UserManager talk to IUserStore to take all services like createAsync)
+// so we allowed dependency injection to this services too
 
 // This Method Has All Application Services
 builder.Services.AddApplicationServices();

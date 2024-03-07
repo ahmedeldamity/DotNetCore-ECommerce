@@ -1,0 +1,813 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\Adidas.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\Adidas.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\Brooks.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\Brooks.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\Cole_Haan.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\Cole_Haan.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\Hoka.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\Hoka.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\New_Balance.png",
+      "PackagePath": "staticwebassets\\images\\brands\\New_Balance.png"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\On.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\On.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\brands\\Under_Armour.jpg",
+      "PackagePath": "staticwebassets\\images\\brands\\Under_Armour.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\608v5_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\608v5_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\608v5_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\608v5_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\608v5_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\608v5_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\608v5_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\608v5_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Dash_12_Zip_2.0_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Dash_12_Zip_2.0_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Dash_12_Zip_2.0_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Dash_12_Zip_2.0_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Dash_12_Zip_2.0_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Dash_12_Zip_2.0_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Lockdown_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Lockdown_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Lockdown_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Lockdown_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Lockdown_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Lockdown_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Lockdown_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Lockdown_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Luxe_Joggers_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Luxe_Joggers_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Luxe_Joggers_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Luxe_Joggers_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Luxe_Joggers_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Luxe_Joggers_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Notch_Thermal_Long_Sleeve_2.0_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_Joggers_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_Joggers_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_Joggers_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_Joggers_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_Joggers_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_Joggers_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_joggers_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_joggers_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_pants_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_pants_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_pants_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_pants_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_pants_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_pants_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Spartan_pants_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Spartan_pants_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Sportstyle_Left_Chest_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Sportstyle_Left_Chest_1.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Sportstyle_Left_Chest_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Sportstyle_Left_Chest_2.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Sportstyle_Left_Chest_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Sportstyle_Left_Chest_3.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Sportstyle_Left_Chest_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Sportstyle_Left_Chest_4.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Storm_SweaterFleece_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Storm_SweaterFleece_1.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Storm_SweaterFleece_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Storm_SweaterFleece_2.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Storm_SweaterFleece_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Storm_SweaterFleece_3.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\Storm_SweaterFleece_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Storm_SweaterFleece_4.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_2.0 _hort_sleeve_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_2.0 _hort_sleeve_1.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_2.0 _hort_sleeve_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_2.0 _hort_sleeve_2.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_2.0 _hort_sleeve_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_2.0 _hort_sleeve_3.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_2.0 _hort_sleeve_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_2.0 _hort_sleeve_4.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Long_Sleeve_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Long_Sleeve_1.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Long_Sleeve_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Long_Sleeve_2.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Long_Sleeve_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Long_Sleeve_3.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Long_Sleeve_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Long_Sleeve_4.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Polo_1.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Polo_1.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Polo_2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Polo_2.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Polo_3.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Polo_3.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\UA_Tech_Polo_4.webp",
+      "PackagePath": "staticwebassets\\images\\products\\UA_Tech_Polo_4.webp"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\active_t_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\active_t_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\active_t_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\active_t_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\active_t_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\active_t_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\active_t_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\active_t_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adizero_ubersonic_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adizero_ubersonic_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adizero_ubersonic_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adizero_ubersonic_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adizero_ubersonic_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adizero_ubersonic_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adrenaline_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adrenaline_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adrenaline_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adrenaline_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adrenaline_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adrenaline_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\adrenaline_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\adrenaline_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\barricade_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\barricade_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\barricade_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\barricade_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\barricade_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\barricade_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\bravada_2.0_platform_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bravada_2.0_platform_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\bravada_2.0_platform_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bravada_2.0_platform_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cascadia_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cascadia_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cascadia_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cascadia_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cascadia_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cascadia_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cascadia_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cascadia_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\charged_commit_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\charged_commit_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\charged_commit_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\charged_commit_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\charged_commit_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\charged_commit_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_x_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_x_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_x_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_x_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_x_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_x_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloud_x_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloud_x_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudrift_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudrift_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudrift_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudrift_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudrift_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudrift_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_ad_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_ad_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_ad_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_ad_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\cloudswift_ad_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cloudswift_ad_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\crazyflight_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\crazyflight_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\crazyflight_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\crazyflight_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\crazyflight_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\crazyflight_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\crazyflight_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\crazyflight_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dDefiant_speed_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dDefiant_speed_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dDefiant_speed_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dDefiant_speed_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynamic_select_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynamic_select_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynamic_select_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynamic_select_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynamic_select_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynamic_select_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynasoft_nitrel_v5_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynasoft_nitrel_v5_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynasoft_nitrel_v5_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynasoft_nitrel_v5_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynasoft_nitrel_v5_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynasoft_nitrel_v5_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\dynasoft_nitrel_v5_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dynasoft_nitrel_v5_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fFresh_foam_roav_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fFresh_foam_roav_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fFresh_foam_roav_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fFresh_foam_roav_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fFresh_foam_roav_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fFresh_foam_roav_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fFresh_foam_roav_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fFresh_foam_roav_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\focus_long_t_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\focus_long_t_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\focus_long_t_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\focus_long_t_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\focus_long_t_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\focus_long_t_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\focus_long_t_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\focus_long_t_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_510v6_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_510v6_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_510v6_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_510v6_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_510v6_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_510v6_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_510v6_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_510v6_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_1080v12_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_1080v12_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_1080v12_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_1080v12_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_1080v12_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_1080v12_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_1080v12_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_1080v12_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\fresh_foam_x_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fresh_foam_x_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\ghost_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ghost_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\ghost_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ghost_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\ghost_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ghost_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\ghost_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ghost_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_premier_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_premier_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_premier_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_premier_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_premier_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_premier_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_crosscourt_premier_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_crosscourt_premier_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_motion_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_motion_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_motion_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_motion_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_motion_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_motion_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grand_motion_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grand_motion_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grandpro_crew_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grandpro_crew_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grandpro_crew_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grandpro_crew_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grandpro_crew_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grandpro_crew_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\grandpro_crew_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grandpro_crew_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\high_point_short_sleeve_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\high_point_short_sleeve_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\high_point_short_sleeve_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\high_point_short_sleeve_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\high_point_short_sleeve_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\high_point_short_sleeve_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\hovr_sonic_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hovr_sonic_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\hovr_sonic_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hovr_sonic_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\hovr_sonic_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hovr_sonic_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\long_t__1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\long_t__1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\long_t__2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\long_t__2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\long_t__3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\long_t__3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\long_t__4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\long_t__4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mach_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mach_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mach_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mach_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mach_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mach_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mach_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mach_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mafate_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mafate_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mafate_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mafate_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mafate_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mafate_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\mafate_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mafate_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\melton_wool_multipocket_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\melton_wool_multipocket_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\melton_wool_multipocket_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\melton_wool_multipocket_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\melton_wool_multipocket_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\melton_wool_multipocket_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\packable_down_jacket_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\packable_down_jacket_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\packable_down_jacket_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\packable_down_jacket_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\packable_down_jacket_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\packable_down_jacket_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\packable_down_jacket_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\packable_down_jacket_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\pref_sneaker_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\pref_sneaker_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\pref_sneaker_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\pref_sneaker_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\pref_sneaker_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\pref_sneaker_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\pref_sneaker_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\pref_sneaker_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\quilted_barn_jacket_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\quilted_barn_jacket_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\quilted_barn_jacket_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\quilted_barn_jacket_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\quilted_barn_jacket_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\quilted_barn_jacket_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speed_1NTRO_long_sleeve_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speed_1NTRO_long_sleeve_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speed_1NTRO_long_sleeve_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speed_1NTRO_long_sleeve_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speed_1NTRO_long_sleeve_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speed_1NTRO_long_sleeve_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedgoat_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedgoat_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedgoat_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedgoat_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedgoat_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedgoat_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedgoat_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedgoat_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedj_Jacquard_short_sleeve_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedj_Jacquard_short_sleeve_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\speedj_Jacquard_short_sleeve_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\speedj_Jacquard_short_sleeve_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\torrent_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\torrent_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\torrent_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\torrent_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\torrent_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\torrent_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\torrent_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\torrent_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\trace_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\trace_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\trace_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\trace_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\trace_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\trace_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\trace_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\trace_4.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\waterproof_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\waterproof_1.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\waterproof_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\waterproof_2.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\waterproof_3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\waterproof_3.jpg"
+    },
+    {
+      "Id": "D:\\DotNetCore-ECommerce\\DotNetCore-ECommerce\\wwwroot\\images\\products\\waterproof_4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\waterproof_4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
