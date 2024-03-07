@@ -1,4 +1,7 @@
+using API.Errors;
+using API.Middlewares;
 using DotNetCore_ECommerce.ServicesExtension;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 
@@ -41,6 +44,33 @@ builder.Services.AddDbContext<StoreContext>(options =>
 // This Method Has All Application Services
 builder.Services.AddApplicationServices();
 
+#region Validation Error - Bad Request
+// -- Validation Error (Bad Request) 
+// --- First: We need to bring options which have InvalidModelState
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    // --- then we need all data (actionContext) of action has validation error
+    options.InvalidModelStateResponseFactory = (actionContext) =>
+    {
+        // --- then we bring ModelState: Dictionary key/value pair for each parameter, and value has property Errors Array have all errors
+        // --- and we use where to bring dictionary key/value pair which is value has errors 
+        var errors = actionContext.ModelState.Where(P => P.Value.Errors.Count() > 0)
+        // --- then we use SelectMany to make one array of all error  
+        .SelectMany(P => P.Value.Errors)
+        // --- then we use Select to bring from errors just ErrorMessages
+        .Select(E => E.ErrorMessage)
+        .ToArray();
+        // --- then we insert this errors to the class we made
+        var validationErrorResponse = new ApiValidationErrorResponse()
+        {
+            Errors = errors
+        };
+        // then return it :)
+        return new BadRequestObjectResult(validationErrorResponse);
+    };
+});
+#endregion
+
 #endregion
 
 var app = builder.Build();
@@ -77,6 +107,9 @@ catch (Exception ex)
 
 #region Configure the Kestrel pipeline
 
+// -- Server Error Middleware (we catch it in class ExceptionMiddleware)
+app.UseMiddleware<ExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     // -- Add Swagger Middelwares In Extension Method
@@ -84,6 +117,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// -- Error Not Found End Point: Here When This Error Thrown: It Redirect To This End Point in (Controller: Errors)
+app.UseStatusCodePagesWithReExecute("/error/{0}");
 
 /// -- In MVC We Used This Way For Routing
 ///app.UseRouting(); // -> we use this middleware to match request to an endpoint
