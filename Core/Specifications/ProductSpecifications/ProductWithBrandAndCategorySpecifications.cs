@@ -13,6 +13,30 @@ namespace Core.Specifications.ProductSpecifications
                (!specParams.brandId.HasValue || p.BrandId == specParams.brandId.Value) &&
                (!specParams.categoryId.HasValue || p.CategoryId == specParams.categoryId.Value);
 
+            if (!string.IsNullOrEmpty(specParams.sort))
+            {
+                switch (specParams.sort)
+                {
+                    case "name":
+                        OrderBy = p => p.Name;
+                        break;
+                    case "nameDesc":
+                        OrderByDesc = p => p.Name;
+                        break;
+                    case "price":
+                        OrderBy = p => p.Price;
+                        break;
+                    case "priceDesc":
+                        OrderByDesc = p => p.Price;
+                        break;
+                    default:
+                        OrderBy = p => p.Price;
+                        break;
+                }
+            }
+            else
+                OrderBy = p => p.Price;
+
             ApplyPagination((specParams.PageIndex - 1) * specParams.PageSize, specParams.PageSize);
         }
         public ProductWithBrandAndCategorySpecifications(int id)
