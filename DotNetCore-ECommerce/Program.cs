@@ -2,12 +2,15 @@ using API.Errors;
 using API.Middlewares;
 using Core.Entities.Identity_Entities;
 using DotNetCore_ECommerce.ServicesExtension;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Repository.Data;
 using Repository.Identity;
 using StackExchange.Redis;
+using System.Text;
 
 #region Update Database Problems And Solution
 // To Update Database You Should Do Two Things 
@@ -74,6 +77,34 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
 // ? this because the three services talking to another Store Services
 // such as (UserManager talk to IUserStore to take all services like createAsync)
 // so we allowed dependency injection to this services too
+
+// AddAuthentication() : this method take one argument (Default Schema)
+// and when we using .AddJwtBearer(): this method can take from you another schema and options
+// and can take just options and this options worked on the default schema that you written it in AddAuthentication()
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; // We use it for to be don't have to let every end point what is the shema because it will make every end point work on bearer schema
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["JWT:ValidAudience"],
+        ValidateIssuer = true,
+        ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"])),
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.FromDays(double.Parse(builder.Configuration["JWT:DurationInDays"])),
+    };
+})
+// If You need to doing some options on another schema
+.AddJwtBearer("Bearer2", options =>
+{
+
+});
 
 // This Method Has All Application Services
 builder.Services.AddApplicationServices();
