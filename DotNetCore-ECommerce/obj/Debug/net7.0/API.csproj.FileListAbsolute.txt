@@ -82,3 +82,5 @@ D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\AutoMapper.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Service.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Service.pdb
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\StackExchange.Redis.dll
