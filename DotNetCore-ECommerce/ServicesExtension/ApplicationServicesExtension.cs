@@ -34,6 +34,9 @@ namespace DotNetCore_ECommerce.ServicesExtension
             // Register Basket Repository
             services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 
+            // Register AuthService
+            services.AddScoped(typeof(IAuthService), typeof(AuthService));
+
             return services;
         }
     }

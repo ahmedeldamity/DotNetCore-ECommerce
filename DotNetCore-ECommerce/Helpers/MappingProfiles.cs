@@ -1,6 +1,7 @@
 ﻿using API.Dtos;
 using AutoMapper;
 using Core.Entities.Basket_Entities;
+using Core.Entities.Identity_Entities;
 using Core.Entities.Product_Entities;
 using DotNetCore_ECommerce.Dtos;
 
@@ -35,6 +36,8 @@ namespace DotNetCore_ECommerce.Helpers
             CreateMap<Basket, BasketToReturnDto>();
 
             CreateMap<BasketItem, BasketItemToReturnDto>();
+
+            CreateMap<UserAddress, UserAddressDto>().ReverseMap();
         }
     }
 }

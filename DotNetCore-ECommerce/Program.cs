@@ -161,6 +161,8 @@ var services = scope.ServiceProvider;
 
 // --> Bring Object Of StoreContext For Update His Migration
 var _storeContext = services.GetRequiredService<StoreContext>();
+// --> Bring Object Of IdentityContext For Update His Migration
+var _identiyContext = services.GetRequiredService<IdentityContext>();
 // --> Bring Object Of ILoggerFactory For Good Show Error In Console    
 var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
@@ -170,6 +172,9 @@ try
     await _storeContext.Database.MigrateAsync();
     // Seeding Data For StoreContext
     await StoreContextSeed.SeedProductDataAsync(_storeContext);
+
+    // Migrate IdentityContext
+    await _identiyContext.Database.MigrateAsync();
 }
 catch (Exception ex)
 {
