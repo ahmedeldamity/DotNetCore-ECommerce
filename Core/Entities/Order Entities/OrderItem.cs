@@ -6,7 +6,7 @@
         {
 
         }
-        public OrderItem(ProductOrderItem product, decimal price, int quantity)
+        public OrderItem(ProductOrderItem product, decimal price, decimal quantity)
         {
             Product = product;
             Price = price;
@@ -19,6 +19,6 @@
                                                       // we need take his properties and mapped it in OrderItem table
                                                       // so will make configration for that :)
         public decimal Price { get; set; }
-        public int Quantity { get; set; }
+        public decimal Quantity { get; set; }
     }
 }
