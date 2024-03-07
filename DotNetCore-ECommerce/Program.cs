@@ -52,6 +52,15 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(serviceProvider =>
 // This Method Has All Application Services
 builder.Services.AddApplicationServices();
 
+// This to allow any host from front-end
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy", options =>
+    {
+        options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
+
 #region Validation Error - Bad Request
 // -- Validation Error (Bad Request) 
 // --- First: We need to bring options which have InvalidModelState
@@ -124,6 +133,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerMiddleware();
 }
 
+// -- To this application can resolve on any static file like (html, wwwroot, etc..)
+app.UseStaticFiles();
+
+app.UseCors("MyPolicy");
+
+// -- To Redirect Any Http Request To Https
 app.UseHttpsRedirection();
 
 // -- Error Not Found End Point: Here When This Error Thrown: It Redirect To This End Point in (Controller: Errors)
