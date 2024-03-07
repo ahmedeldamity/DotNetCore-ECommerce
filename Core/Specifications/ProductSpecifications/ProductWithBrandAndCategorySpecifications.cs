@@ -12,6 +12,8 @@ namespace Core.Specifications.ProductSpecifications
                p => (string.IsNullOrEmpty(specParams.search) || p.Name.ToLower().Contains(specParams.search.ToLower())) &&
                (!specParams.brandId.HasValue || p.BrandId == specParams.brandId.Value) &&
                (!specParams.categoryId.HasValue || p.CategoryId == specParams.categoryId.Value);
+
+            ApplyPagination((specParams.PageIndex - 1) * specParams.PageSize, specParams.PageSize);
         }
         public ProductWithBrandAndCategorySpecifications(int id)
         {

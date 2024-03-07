@@ -1,10 +1,11 @@
 ﻿using Core.Entities.Product_Entities;
 using Core.Interfaces.Repositories;
+using Core.Interfaces.Services;
 using Core.Specifications.ProductSpecifications;
 
 namespace Service
 {
-    public class ProductService
+    public class ProductService: IProductService
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -19,7 +20,12 @@ namespace Service
             var products = await _unitOfWork.Repository<Product>().GetAllWithSpecAsync(spec);
             return products;
         }
-
+        public async Task<int> GetProductCount(ProductSpecificationParameters specParams)
+        {
+            var spec = new ProductCountSpecification(specParams);
+            var productsCount = await _unitOfWork.Repository<Product>().GetCountAsync(spec);
+            return productsCount;
+        }
         public async Task<Product?> GetProductAsync(int id)
         {
             var spec = new ProductWithBrandAndCategorySpecifications(id);

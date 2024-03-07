@@ -1,5 +1,6 @@
 ﻿using Core.Interfaces.Repositories;
 using Core.Interfaces.Services;
+using DotNetCore_ECommerce.Helpers;
 using Repository;
 using Service;
 
@@ -23,6 +24,12 @@ namespace DotNetCore_ECommerce.ServicesExtension
 
             // Register Product Service
             services.AddScoped(typeof(IProductService), typeof(ProductService));
+
+            // --- Two Ways To Register AutoMapper
+            // - First (harder)
+            //builder.Services.AddAutoMapper(M => M.AddProfile(new MappingProfiles()));
+            // - Second (easier)
+            services.AddAutoMapper(typeof(MappingProfiles));
 
             return services;
         }

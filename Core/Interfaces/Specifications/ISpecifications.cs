@@ -7,5 +7,8 @@ namespace Core.Interfaces.Specifications
     {
         public Expression<Func<T, bool>> WhereCriteria { get; set; }
         public List<Expression<Func<T, object>>> IncludesCriteria { get; set; }
+        public int Skip { get; set; }
+        public int Take { get; set; }
+        public bool IsPaginationEnabled { get; set; }
     }
 }

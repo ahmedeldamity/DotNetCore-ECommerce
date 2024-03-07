@@ -1,6 +1,7 @@
 ﻿using Core.Entities;
 using Core.Interfaces.Specifications;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Repository
 {
@@ -12,6 +13,9 @@ namespace Repository
 
             if (spec.WhereCriteria != null)
                 query = query.Where(spec.WhereCriteria);
+
+            if (spec.IsPaginationEnabled)
+                query = query.Skip(spec.Skip).Take(spec.Take);
 
             query = spec.IncludesCriteria.Aggregate(query, (currentQuery, includeExpression) => currentQuery.Include(includeExpression));
 

@@ -78,3 +78,7 @@ D:\DotNetCore-ECommerce\DotNetCore-ECommerce\obj\Debug\net7.0\refint\API.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\obj\Debug\net7.0\API.pdb
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\obj\Debug\net7.0\API.genruntimeconfig.cache
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\obj\Debug\net7.0\ref\API.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\AutoMapper.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Service.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Service.pdb
