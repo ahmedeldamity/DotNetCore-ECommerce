@@ -1,4 +1,5 @@
-﻿using Core.Entities.Product_Entities;
+﻿using Core.Entities.Order_Entities;
+using Core.Entities.Product_Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -30,5 +31,8 @@ namespace Repository.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductBrand> ProductBrands { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<OrderDeliveryMethod> OrderDeliveryMethods { get; set; }
     }
 }
