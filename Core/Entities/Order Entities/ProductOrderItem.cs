@@ -10,11 +10,11 @@
         {
             ProductId = productId;
             ProductName = productName;
-            ImageCover = imageCover;
+            ProductImageCover = imageCover;
         }
 
         public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public string ImageCover { get; set; }
+        public string ProductImageCover { get; set; }
     }
 }

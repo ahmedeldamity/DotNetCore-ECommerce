@@ -49,7 +49,7 @@ namespace DotNetCore_ECommerce.Helpers
             CreateMap<OrderItem, OrderItemDto>()
                 .ForMember(d => d.ProductId, o => o.MapFrom(s => s.Product.ProductId))
                 .ForMember(d => d.ProductName, o => o.MapFrom(s => s.Product.ProductName))
-                .ForMember(d => d.PictureUrl, o => o.MapFrom(s => s.Product.ImageCover));
+                .ForMember(d => d.PictureUrl, o => o.MapFrom(s => s.Product.ProductImageCover));
         }
     }
 }

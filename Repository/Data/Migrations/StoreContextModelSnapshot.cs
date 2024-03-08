@@ -100,8 +100,8 @@ namespace Repository.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Quantity")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -254,12 +254,12 @@ namespace Repository.Data.Migrations
                             b1.Property<int>("OrderItemId")
                                 .HasColumnType("int");
 
-                            b1.Property<string>("PictureUrl")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
-
                             b1.Property<int>("ProductId")
                                 .HasColumnType("int");
+
+                            b1.Property<string>("ProductImageCover")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
                             b1.Property<string>("ProductName")
                                 .IsRequired()

@@ -10,11 +10,13 @@ namespace Service
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IBasketRepository _basketRepository;
+        private readonly IPaymentService _paymentService;
 
-        public OrderService(IUnitOfWork unitOfWork, IBasketRepository basketRepository)
+        public OrderService(IUnitOfWork unitOfWork, IBasketRepository basketRepository, IPaymentService paymentService)
         {
             _unitOfWork = unitOfWork;
             _basketRepository = basketRepository;
+            _paymentService = paymentService;
         }
         public async Task<Order?> CreateOrderAsync(string buyerEmail, string basketId, int deliveryMethodId, OrderAddress shippingAddress)
         {
@@ -58,7 +60,7 @@ namespace Service
                 // If order has old payment and then client update basket and don't create new payment then
                 // client will pay on old payment intent
                 // so I will create new payment from here for update payment so amount will updated
-                //await _paymentService.CreateOrUpdatePaymentIntent(basketId);
+                await _paymentService.CreateOrUpdatePaymentIntent(basketId);
             }
 
             // 5. Create New Order
