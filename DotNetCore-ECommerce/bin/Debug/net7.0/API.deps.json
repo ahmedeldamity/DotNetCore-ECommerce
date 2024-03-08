@@ -499,6 +499,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "5.0.1"
@@ -519,6 +527,18 @@
           "lib/net6.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.7.27.49176"
+          }
+        }
+      },
+      "Stripe.net/43.18.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "43.18.0.0",
+            "fileVersion": "43.18.0.0"
           }
         }
       },
@@ -764,7 +784,8 @@
       "Service/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16",
+          "Stripe.net": "43.18.0"
         },
         "runtime": {
           "Service.dll": {}
@@ -1114,6 +1135,13 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
       "serviceable": true,
@@ -1127,6 +1155,13 @@
       "sha512": "sha512-Uqc2OQHglqj9/FfGQ6RkKFkZfHySfZlfmbCl+hc+u2I/IqunfelQ7QJi7ZhvAJxUtu80pildVX6NPLdDaUffOw==",
       "path": "stackexchange.redis/2.7.27",
       "hashPath": "stackexchange.redis.2.7.27.nupkg.sha512"
+    },
+    "Stripe.net/43.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PI1je2UwLdu6RH/5hWFgEXjtHavJ7mX1KKmlWDLNDnmHId6qdlD/NuHMyFf9ngYibhRl49l52phxRbpR60Px1g==",
+      "path": "stripe.net/43.18.0",
+      "hashPath": "stripe.net.43.18.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

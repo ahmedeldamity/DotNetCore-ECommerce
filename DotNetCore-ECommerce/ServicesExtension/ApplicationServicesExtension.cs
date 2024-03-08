@@ -40,6 +40,9 @@ namespace DotNetCore_ECommerce.ServicesExtension
             // Register Order Service
             services.AddScoped(typeof(IOrderService), typeof(OrderService));
 
+            // Register PaymentService
+            services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
+
             return services;
         }
     }

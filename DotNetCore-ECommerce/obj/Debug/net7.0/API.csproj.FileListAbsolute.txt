@@ -92,3 +92,5 @@ D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Microsoft.Extensio
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\DotNetCore-ECommerce\DotNetCore-ECommerce\bin\Debug\net7.0\Stripe.net.dll
