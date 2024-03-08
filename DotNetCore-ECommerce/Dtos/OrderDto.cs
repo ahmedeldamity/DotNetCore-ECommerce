@@ -8,6 +8,9 @@ namespace API.Dtos
         public string BasketId { get; set; }
 
         [Required]
+        public int DeliveryMethodId { get; set; }
+
+        [Required]
         public OrderAddressDto ShippingAddress { get; set; }
     }
 }

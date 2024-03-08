@@ -37,6 +37,9 @@ namespace DotNetCore_ECommerce.ServicesExtension
             // Register AuthService
             services.AddScoped(typeof(IAuthService), typeof(AuthService));
 
+            // Register Order Service
+            services.AddScoped(typeof(IOrderService), typeof(OrderService));
+
             return services;
         }
     }
