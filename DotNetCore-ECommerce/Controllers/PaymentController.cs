@@ -9,7 +9,6 @@ using Stripe;
 
 namespace API.Controllers
 {
-    [Authorize]
     public class PaymentController : BaseController
     {
         private readonly IPaymentService _paymentService;
@@ -43,7 +42,7 @@ namespace API.Controllers
 
             var stripeEvent = EventUtility.ConstructEvent(json,
                 Request.Headers["Stripe-Signature"], _webhookSecret);
-
+             
             var paymentIntent = (PaymentIntent)stripeEvent.Data.Object;
 
             Order order;

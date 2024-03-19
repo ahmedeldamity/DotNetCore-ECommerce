@@ -51,22 +51,22 @@ namespace Service
 
             var orderSpec = new OrderWithPaymentIntentSpecifications(basket.PaymentIntentId);
 
-            var existingOrder = await orderRepository.GetByIdWithSpecAsync(orderSpec);
+            var order = await orderRepository.GetByIdWithSpecAsync(orderSpec);
 
-            if (existingOrder != null)
+            if(order != null)
             {
-                orderRepository.Delete(existingOrder);
-
-                // If order has old payment and then client update basket and don't create new payment then
-                // client will pay on old payment intent
-                // so I will create new payment from here for update payment so amount will updated
-                await _paymentService.CreateOrUpdatePaymentIntent(basketId);
+                order.ShippingAddress = shippingAddress;
+                order.DeliveryMethod = deliveryMethod;
+                order.SubTotal = subTotal;
+                orderRepository.Update(order);
             }
+            else
+            {
+                // 5. Create New Order
+                order = new Order(buyerEmail, shippingAddress, deliveryMethod, orderitems, subTotal, basket.PaymentIntentId);
 
-            // 5. Create New Order
-            var order = new Order(buyerEmail, shippingAddress, deliveryMethod, orderitems, subTotal, basket.PaymentIntentId);
-
-            await orderRepository.AddAsync(order);
+                await orderRepository.AddAsync(order);
+            }
 
             // 6. SaveChanges()
             var result = await _unitOfWork.CompleteAsync();
